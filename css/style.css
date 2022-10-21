@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif);
@@ -84,6 +88,7 @@ body {
     border: 3px solid black;
     border-radius: 30px;
     text-align: center;
+    font-size: 20px;
   }
 
   .divRadio{
@@ -94,16 +99,23 @@ body {
   }
 
   .icone{
+    position: absolute;
+    bottom: 0;
+    width: 1430px;
+    height: 138px;    
+    text-align: center;
     border:solid;
     border-radius: 20px;
-    background-image: url(https://i.gifer.com/origin/da/da16adc34ecd323cd9811f430414224e_w200.gif);
     cursor: auto;
   }
 
   .icone a{
-    font-size:30px;
+    font-size: 55px;
     padding: 2px;
 
+  }
+  .icone a :hover{
+    font-size: 70px;
   }
 
   #codigo{
